@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:black;
+    font-family:'Times New Roman', Times, serif
+}
+
+.wrapper{
+    margin-top: 15%;
+    margin-left: 20%;
+}
+.wrapper h1{
+    font: 2.5em sans-serif;
+    margin-bottom: 0.5em;
+    text-align: center;
+    color: #3cdfff;
+}
+.skills{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.skills .specificskill{
+    background-color:aliceblue;
+    margin: 4px;
+    margin-bottom: 50px;
+    width:300px;
+    padding: 7px;
+    position: relative;
+
+}
+.skills .specificskill h3{
+    color:blue;
+    font-size: large;
+    margin-top: 50px;
+
+}
