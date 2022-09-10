@@ -11,7 +11,7 @@ body{
     font-family:'Times New Roman', Times, serif
 }
 .wrapper{
-    /* margin-top: 1%; */
+   
     width:100vw;
     height: 100vh;
     display: grid;
@@ -26,16 +26,18 @@ body{
     grid-column-start: 2;
     grid-column-end: span 3;
     grid-row-start: 3;
-    grid-row-end: span 1;
+    grid-row-end: 3;
 }
 .wrapper  .container1 h1{
     font-family: 'Allura', cursive;
+    padding: auto;
+    margin-top: 0.5em;
     font-size: 4em;
     font-weight: bold;
     /* font: 2.5em 'Allura'; */
     /* margin-bottom: 0.5em; */
     text-align: center;
-    color: #3cdfff;
+    color: #02788f;
 }
 .skills{
     display: flex;
@@ -49,17 +51,18 @@ body{
 
 .skills .specificskill{
     background-color:#dfe9f5;
-    margin: 4px;
+    margin: 0.5px;
     margin-bottom: 50px;
     width:300px;
-    padding: 7px;
+    padding: 0px;
     position: relative;
+    border-color: black;
 
 }
 .skills .specificskill h3{
     color:blue;
     font-size: large;
-    margin-top: 50px;
+    margin-top: 0px;
 
 }
 
