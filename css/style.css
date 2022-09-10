@@ -128,7 +128,6 @@ body{
     margin: 5px;
     margin-top: 50px;
     height: 33%;
-    list-style:decimal;
     line-height: 20px;
     /* position: relative; */
     text-align:center;  
@@ -168,14 +167,17 @@ nav{
 .container3 .intro{
     background-color:#dfe9f5;
     padding: 5px;
+    margin-top: 3em;
     width: 70%;
     height: 33%; 
-    text-align:left;
-    text-transform: lowercase;
+    text-align:center;
      flex-wrap: wrap;
-     flex-direction: row;
+     flex-direction: column;
     line-height: 20px;
     position: relative;
+}
+span{
+    color:blue;
 }
 button{
     color: black;
@@ -184,7 +186,7 @@ button{
     align-items: center;
 }
  .container3 .imageB{
-    width: 105px;
+    width: 10px;
     height: 200px;
     position:relative;
     left:0%;
