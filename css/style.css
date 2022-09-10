@@ -65,11 +65,13 @@ body{
 
 .wrapper .container2{
     margin: 5px;
+    
+    margin-left: 1em;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 4;
-     display:flex;
+    display:flex;
     flex-direction: column;
     
     justify-content: center;
@@ -129,9 +131,9 @@ body{
     list-style:decimal;
     line-height: 20px;
     /* position: relative; */
-    text-align: center;
-    
+    text-align:center;  
 }
+
 nav{
     display: flex;
     margin-left: 80%;
@@ -166,16 +168,24 @@ nav{
 .container3 .intro{
     background-color:#dfe9f5;
     padding: 5px;
-    /* height: 33%; */
+    width: 70%;
+    height: 33%; 
     text-align:left;
     text-transform: lowercase;
-
+     flex-wrap: wrap;
+     flex-direction: row;
     line-height: 20px;
     position: relative;
 }
+button{
+    color: black;
+    background-color: green;
+    border-color: green;
+    align-items: center;
+}
  .container3 .imageB{
-    width: 100px;
-    height: 100px;
+    width: 105px;
+    height: 200px;
     position:relative;
     left:0%;
     transform: translateX(-100%); 
