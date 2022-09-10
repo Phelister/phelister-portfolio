@@ -7,11 +7,11 @@
 }
 
 body{
-    background-color:black;
+    background-color:#dfe9f5;
     font-family:'Times New Roman', Times, serif
 }
 .wrapper{
-    margin-top: 1%;
+    /* margin-top: 1%; */
     width:100vw;
     height: 100vh;
     display: grid;
@@ -26,14 +26,14 @@ body{
     grid-column-start: 2;
     grid-column-end: span 3;
     grid-row-start: 3;
-    grid-row-end: ;
+    grid-row-end: span 1;
 }
 .wrapper  .container1 h1{
     font-family: 'Allura', cursive;
     font-size: 4em;
     font-weight: bold;
     /* font: 2.5em 'Allura'; */
-    margin-bottom: 0.5em;
+    /* margin-bottom: 0.5em; */
     text-align: center;
     color: #3cdfff;
 }
@@ -48,7 +48,7 @@ body{
 }
 
 .skills .specificskill{
-    background-color:gray;
+    background-color:#dfe9f5;
     margin: 4px;
     margin-bottom: 50px;
     width:300px;
@@ -73,10 +73,7 @@ body{
     flex-direction: column;
     
     justify-content: center;
-    background-color: #8e8b8b;
-   
-    
-    
+    background-color: #dfe9f5;    
     
 }
 
@@ -89,7 +86,7 @@ body{
    
 }
 .container2 #aboutA{
-    background-color: #8e8b8b;
+    background-color: #dfe9f5;
     margin: 5px;
     margin-top: 50px;
     height: 33%;
@@ -105,7 +102,7 @@ body{
     left:50%;
     transform: translateX(-50%);
     border-radius: 80%;
-    background: #ffffff;
+    background: #dfe9f5;
 }
 .container2 #aboutA #aboutAImage img{
     width: 100px;
@@ -116,7 +113,7 @@ body{
 }
 
 .container2 #aboutB{
-    background-color: #8e8b8b;
+    background-color:#dfe9f5;
     margin: 5px;
     margin-top: 50px;
     height: 33%;
@@ -125,13 +122,74 @@ body{
     position: relative;
 }
 .container2 #aboutC{
-    background-color: #8e8b8b;
+    background-color: #dfe9f5;
     margin: 5px;
     margin-top: 50px;
     height: 33%;
+    list-style:decimal;
     line-height: 20px;
     /* position: relative; */
     text-align: center;
+    
+}
+nav{
+    display: flex;
+    margin-left: 80%;
+    position: relative;
+    top: 0;
+    bottom:0;
+    right:0;
+    height: 100%;
+    background-color: #ffffff;
+    width:90px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    text-align: center;
+}
+.navlinks{
+    flex: 1;
+    text-align: left;
+}
+
+.wrapper .container3{
+    margin: 5px;
+    grid-column-start: 2;
+    grid-column-end: span 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    background-color: #dfe9f5;      
+}
+.container3 .intro{
+    background-color:#dfe9f5;
+    margin: 5px;
+    padding: 15%;
+    margin-top: 50px;
+    height: 33%;
+    text-align: center;
+    line-height: 20px;
+    position: relative;
+}
+ .container3 .imageB{
+    width: 100px;
+    height: 100px;
+    position:relative;
+    left:0%;
+    transform: translateX(-50%); 
+    border-radius: 80%;
+    background: #dfe9f5;
+}
+
+.container3 .imageB img{
+    width: 200px;
+    height: 300px; 
+    image-rendering: auto;
+    image-orientation: flip;
+
+    border-radius: 150%; 
+    /* padding: 10px; */
     
 }
 
