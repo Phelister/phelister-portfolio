@@ -1,21 +1,38 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body{
-    background-color:black;
+    background-color:gray;
     font-family:'Times New Roman', Times, serif
 }
-
 .wrapper{
-    margin-top: 15%;
-    margin-left: 20%;
+    margin-top: 1%;
+    width:100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows:repeat(4, 1fr);
+
 }
-.wrapper h1{
-    font: 2.5em sans-serif;
+
+.wrapper .container1{
+    /* margin-top: 0%;
+    margin-left: 20%; */
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+.wrapper  .container1 h1{
+    font-family: 'Allura', cursive;
+    font-size: 4em;
+    font-weight: bold;
+    /* font: 2.5em 'Allura'; */
     margin-bottom: 0.5em;
     text-align: center;
     color: #3cdfff;
@@ -25,8 +42,9 @@ body{
     text-align: center;
     width: auto;
     justify-content: center;
-    flex-wrap: wrap;
-
+    flex-wrap:wrap;
+    flex-shrink: calc();
+    
 }
 
 .skills .specificskill{
@@ -43,4 +61,25 @@ body{
     font-size: large;
     margin-top: 50px;
 
+}
+
+.wrapper .container2{
+    /* margin-top:0%;
+    margin-right:55%;
+    margin-left: 0%;
+    margin-bottom: 70%; */
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+}
+
+.wrapper  .container2 h3{
+    font-family: 'Allura', cursive;
+    font-size: 1em;
+    /* font: 2.5em 'Allura'; */
+    margin-bottom: 0.5em;
+    /* text-align: center; */
+    color: #3cdfff;
 }
