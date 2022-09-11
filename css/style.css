@@ -68,7 +68,6 @@ body{
 
 .wrapper .container2{
     margin: 5px;
-    
     margin-left: 1em;
     grid-column-start: 1;
     grid-column-end: 1;
@@ -76,7 +75,6 @@ body{
     grid-row-end: 4;
     display:flex;
     flex-direction: column;
-    
     justify-content: center;
     background-color: #dfe9f5;    
     
