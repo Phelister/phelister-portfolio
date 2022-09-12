@@ -21,8 +21,9 @@ body{
 }
 
 .wrapper .container1{
-    /* margin-top: 0%;
-    margin-left: 20%; */
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
     grid-column-start: 2;
     grid-column-end: span 3;
     grid-row-start: 3;
@@ -34,10 +35,14 @@ body{
     margin-top: 0.5em;
     font-size: 4em;
     font-weight: bold;
-    /* font: 2.5em 'Allura'; */
-    /* margin-bottom: 0.5em; */
+    
     text-align: center;
     color: #02788f;
+}
+ .container4 h1{
+    
+    margin-top: 0.1em;
+   
 }
 .skills{
     display: flex;
@@ -162,9 +167,8 @@ nav{
     grid-row-start: 1;
     grid-row-end: 1;
     display:flex;
-    /* flex-wrap: wrap; */
     flex-direction:row;
-    /* justify-content: center; */
+   
     background-color: #dfe9f5;      
 }
 .container3 .intro{
@@ -209,7 +213,7 @@ button{
     
 }
 .wrapper .container4{
-   
+   margin-top: 0%;
     grid-column-start: 2;
     grid-column-end: span 3;
     grid-row-start: 4;
