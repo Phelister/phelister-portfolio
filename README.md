@@ -11,7 +11,7 @@ Phelister Bogonko Portfolio
 ![PhelisterLogo](images/logo.jpg)
 
 ## Description of project
-<p>This project aims to create a personal portfolio to showcase my skills to the world and assist/welcom other developers who would want to create a similar portfolio to collaborate. </p>
+<p>This project aims to create a personal portfolio to showcase my skills to the world and assist/welcome other developers who would want to create a similar portfolio to collaborate. </p>
 
 
 ## Technologies
