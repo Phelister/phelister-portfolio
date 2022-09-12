@@ -23,7 +23,6 @@ body{
 .wrapper .container1{
     
     margin-top: 7%;
-    margin-left: 10%;
     margin-right: 10%;
     grid-column-start: 2;
     grid-column-end: span 3;
@@ -164,7 +163,7 @@ nav{
 }
 
 .wrapper .container3{
-    
+   padding: auto;
     grid-column-start: 2;
     grid-column-end: span 3;
     grid-row-start: 1;
@@ -199,6 +198,7 @@ button{
     width: 10px;
     height: 200px;
     position:relative;
+    margin-top: 0.5em;
     left:0%;
     transform: translateX(-100%); 
     border-radius: 80%;
@@ -212,10 +212,10 @@ button{
     image-orientation: flip;
     border-radius: 150%; 
     
-    
 }
+
 .wrapper .container4{
-   margin-top: 0%;
+   margin-right: 15%;
     grid-column-start: 2;
     grid-column-end: span 3;
     grid-row-start: 4;
