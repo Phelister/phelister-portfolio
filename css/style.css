@@ -234,6 +234,7 @@ p em{
 ul{
     align-items: center;
     display:inline-block;
+    text-align: left;
 }
 #copyrightdetails{
     text-align: center;
