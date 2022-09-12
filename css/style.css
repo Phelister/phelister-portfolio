@@ -215,9 +215,16 @@ button{
     grid-row-start: 4;
     grid-row-end: 4;
 }
+.container4 h1{
+    color:midnightblue
+}
 a{
     text-decoration: none;
     color:navy;
+}
+p em{
+    color: slateblue;
+    height: auto;
 }
 
 
