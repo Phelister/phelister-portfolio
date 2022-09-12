@@ -140,7 +140,7 @@ body{
     margin-top: 5px;
     height: 33%;
     line-height: 20px;
-    /* position: relative; */
+    
     text-align:center;  
 }
 
@@ -210,9 +210,8 @@ button{
     height: 300px; 
     image-rendering: auto;
     image-orientation: flip;
-
     border-radius: 150%; 
-    /* padding: 10px; */
+    
     
 }
 .wrapper .container4{
