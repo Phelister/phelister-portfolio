@@ -28,7 +28,7 @@ body{
     grid-row-start: 3;
     grid-row-end: 3;
 }
-.wrapper  .container1 h1{
+ h1{
     font-family: 'Allura', cursive;
     padding: auto;
     margin-top: 0.5em;
@@ -91,7 +91,7 @@ body{
 .container2 #aboutA{
     background-color: #dfe9f5;
     margin: 2px;
-    margin-top: 5px;
+    margin-top: 0px;
     height: 33%;
     text-align: center;
     line-height: 20px;
@@ -101,6 +101,7 @@ body{
 .container2 #aboutA #aboutAImage{
     width: 100px;
     height: 100px;
+    margin-top: 5px;
     position:relative;
     left:50%;
     transform: translateX(-50%);
@@ -119,7 +120,7 @@ body{
 .container2 #aboutB{
     background-color:#dfe9f5;
     margin: 2px;
-    margin-top: 5px;
+    margin-top: 2px;
     height: 33%;
     text-align: center;
     line-height: 20px;
